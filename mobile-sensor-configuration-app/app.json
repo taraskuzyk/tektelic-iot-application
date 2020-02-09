@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "TEKTELIC Device App",
+    "slug": "mobile-sensor-configuration-app",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/tekicon.jpg",
+    "splash": {
+      "image": "./assets/teklogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.tektelic.deviceapp"
+    },
+    "description": ""
+  }
+}
